@@ -6,6 +6,9 @@
 # VS Code 配置
 .vscode/
 
+# Kiro IDE 配置
+.kiro/
+
 # 编译输出
 build/
 
