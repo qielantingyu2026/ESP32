@@ -23,6 +23,8 @@
 | 主控板 | ESP32-C3 Super Mini | 1 |
 | 显示屏 | 0.96寸 OLED (SSD1315, I2C) | 1 |
 | 触摸传感器 | TTP223 | 1 |
+| 功放模块 | MAX98357A (可选) | 1 |
+| 喇叭 | 4Ω 3W 小喇叭 (可选) | 1 |
 
 ## 📌 接线说明
 
@@ -35,6 +37,11 @@
 | TTP223 | VCC | 3.3V |
 | TTP223 | GND | GND |
 | TTP223 | OUT | GPIO2 |
+| MAX98357A | VIN | 3.3V |
+| MAX98357A | GND | GND |
+| MAX98357A | DIN | GPIO3 |
+| MAX98357A | BCLK | GPIO4 |
+| MAX98357A | LRC | GPIO5 |
 
 ## 🚀 快速开始
 
