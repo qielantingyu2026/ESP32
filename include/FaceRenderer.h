@@ -139,6 +139,11 @@ private:
     void drawMouth(U8G2* display);
     
     /**
+     * 绘制腮红
+     */
+    void drawBlush(U8G2* display);
+    
+    /**
      * 处理眨眼动画
      */
     void handleBlinkAnimation();
